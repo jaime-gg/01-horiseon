@@ -55,11 +55,15 @@ p {
 /*the hero section containg the large background image under the header----------------------------------------------------------*/
 .hero {
     height: 800px;
-    width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+}
+
+/*Moved image to html in order to add alt text as per my instructers directions*/
+.hero img {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
 }
 
 /*conent portion of the webpage - float properties affects image positioning for this section------------------------------------*/
