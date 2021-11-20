@@ -1,16 +1,12 @@
 # 01 HTML, CSS, and Git: Code Refactor
+I was given the provided code with the purpose of going through and refactoring it so that it could meet the criteria laid out by the client. In this case, the primary objective was to improve the overall accessibility standards of the site. This assignment was made all the more possible thanks to the acceptance criteria that was included in the original README file found in the downloaded content. This criteria will be included later on in this file alongside the given User Story. 
+ 
+When first viewing the code the primary thing that I did was to replace 'div' tags with the appropriate semantic elements and altered the css to work with these changes. I continued my work by cleaning up the given code by orgnizing the css by grouping similar selectors and provided comments to better distinguish the content. I then went into actually fixing the html in order to improve accessibility. This was accomplished by fixing missing links and by providing the necessary alt text for images and icons.
+ 
+It is worthy of noting that due to the inclusion of the 'hero' image in the css file, the addiction of 'alt' text was not easily possible given the tools at my disposal. With the permission and encouragement of my instructors this image was moved to the html file and the appropriate css code was added or removed in order to preserve the desired placement of the image.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it. 
-
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Remember when working with a client, it is essential to read the acceptance criteria for guidance and clarity on what the client expects, especially when asked to make a judgment call, such as when an icon needs an accessible alt tag and when it is okay to leave it blank. 
-
-To successfully complete this week's Challenge, all acceptance criteria must be fully addressed!
-
-## User Story
+## Given: User Story
 
 ```
 AS A marketing agency
@@ -18,7 +14,7 @@ I WANT a codebase that follows accessibility standards
 SO THAT our site is optimized for search engines
 ```
 
-## Acceptance Criteria
+## Given: Acceptance Criteria
 
 ```
 GIVEN a webpage that meets accessibility standards
@@ -39,8 +35,10 @@ THEN I find a concise, descriptive title
 You are required to submit the following for review:
 
 * The URL of the deployed application.
+    - https://jaime-gg.github.io/01-horiseon/ 
 
 * The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
+    - https://github.com/jaime-gg/01-horiseon
+    
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
